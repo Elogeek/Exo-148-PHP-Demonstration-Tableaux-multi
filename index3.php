@@ -20,10 +20,9 @@ $vehicule = array("nom" => "Aventador LP 700-4",
  * ];
  */
 
-print_r($vehicule);
-echo "<br><br>";
+echo print_r($vehicule)."<br><br>";
 
 
 echo "Accéder aux valeurs du tableau : <br>";
-echo "Mon véhicule est un(e) ".$vehicule["marque"].' '.$vehicule["nom"]."avec une puissance de ".$vehicule["puissance"]." cv qui coûte ".$vehicule["prix"]." Euros";
-echo "<br><br>";
+echo "Mon véhicule est un(e) ".$vehicule["marque"].' '.$vehicule["nom"]."avec une puissance de ".$vehicule["puissance"]." cv qui coûte ".$vehicule["prix"]." Euros"."<br><br>";
+
